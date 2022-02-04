@@ -14,7 +14,13 @@
         <img id="sidebar-bacground-photo" src="sidebar-photo.jpeg" alt="plant photo"></iimg>
         <div class="logo">
             <img id="odin-logo" src="odin-logo.png" alt="norse god head">
-            <p>ODIN</p>
+            <p class="logo-text">ODIN</p>
+        </div>
+        <div class="photo-credit">
+            <p>Photo by</p>
+            <a href="https://unsplash.com/@haliewestphoto">Halie West</a>
+            <p>at</p>
+            <a href="https://unsplash.com/">Unsplash</a>
         </div>
     </div>
     <div class="content">
@@ -31,7 +37,7 @@
                 </div>
                 <div class="last-name-div">
                     <label for="last-name">LAST NAME</label>
-                    <input id="last-name" type="text">
+                    <input id="last-name" class="focus" type="text">
                 </div>
                 <div class="first-name-div">
                     <label for="first-name">EMAIL</label>
@@ -43,11 +49,12 @@
                 </div>
                 <div class="password-div">
                     <label for="password">PASSWORD</label>
-                    <input id="password" type="password">
+                    <input id="password error" type="password">
+                    <span class="error">*Passwords do not match</span>
                 </div>
                 <div class="confirm-password-div">
-                    <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input id="confirm-password" type="password">
+                    <label for="confirm-password ">CONFIRM PASSWORD</label>
+                    <input id="confirm-password error" type="password">
                 </div>
             </form>
 
