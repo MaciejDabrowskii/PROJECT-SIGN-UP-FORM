@@ -15,7 +15,7 @@ body {
 .main {
     display:flex;
     width: 73%;
-    height: 891px;
+    height: 100vh;
 }
 .sidebar {
     width: 38%;
@@ -29,14 +29,14 @@ body {
 }
 .logo {
     position: absolute;
-    top: 22%;
+    top: 16%;
     padding: 5px 0 ;
     display :flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.418);
-    height: 13%;
+    height: 16%;
 }
 .logo-text {
     font-family: norseBold;
